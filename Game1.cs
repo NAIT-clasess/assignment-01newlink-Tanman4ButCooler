@@ -9,11 +9,24 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
+    private Texture2D _background;
+
+    private Texture2D _beetleTexture;
+    private Texture2D _walkingTexture;
+    private SimpleAnimation _beetleAnim;
+    private SimpleAnimation _walkingAnim;
+
+    private Vector2 _beetlePos;
+    private Vector2 _walkingPos;
+    private float _walkSpeed = 200f;
+    private SpriteFont _font;
+
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
+
     }
 
     protected override void Initialize()
