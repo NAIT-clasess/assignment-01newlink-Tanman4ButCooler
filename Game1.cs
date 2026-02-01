@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Assignment_01;
 
-public class Game1 : Game
+public class Game1 : Game 
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
