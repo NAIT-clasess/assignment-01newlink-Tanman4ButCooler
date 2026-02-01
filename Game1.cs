@@ -108,7 +108,7 @@ public class Game1 : Game
         // Draw text
         _spriteBatch.DrawString(
             _font,
-            "Assignment 01 - Animation & Input Ben 10 hide as a alien",
+            "Assignment 01 - Animation & Input ",
             new Vector2(20, 20),
             Color.White
         );
