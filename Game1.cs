@@ -16,6 +16,7 @@ public class Game1 : Game
     private int _windowWidth;
     private int _windowHeight;
     private Texture2D _staticImage;
+    
     private Vector2 _autoMovePosition;
     private float _autoSpeed = 80f;
     
