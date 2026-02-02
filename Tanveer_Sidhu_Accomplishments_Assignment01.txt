@@ -1,0 +1,31 @@
+ Background rendering [2/2]
+- Background image "Background.png" loaded through the MonoGame Content Pipeline using Content.Load<Texture2D>()
+- Background displayed clearly in the game window, stretched to match window size (1024x768)
+
+ Static image rendering [2/2]
+- Additional non-animated image "Idle.png" loaded through the MonoGame Content Pipeline
+- Static image clearly displayed on screen at position (0, 100)
+
+ Animated sprite sequence 1 [4/4]
+- Animated sprite "Player.png" (the walk animation) different than the one used in class
+- Sprite sheet with 6 frames displayed using frame-based animation
+- Controlled by the provided SimpleAnimation class with 6 FPS
+
+ Animated sprite sequence 2 [4/4]
+- Second animated sprite sequence "Idle.png" (the idle player animation) different than class example
+- Sprite sheet with 2 frames, visually distinct from the first animation
+- Controlled by the provided SimpleAnimation class with 2 FPS
+
+ Text rendering [2/2]
+- String of text "Assignment 01 - Animation & Input" rendered to the screen
+- Using SpriteFont "Sansfont" loaded through Content Pipeline
+- Displayed at position (20, 20) in white color
+
+ Automatic movement of on-screen content [2/2]
+- Static image moves automatically without player input
+- Moves right at 80 pixels per second with screen wrapping
+
+ Keyboard-controlled movement [4/4]
+- Player character moves in response to keyboard input (WASD keys)
+- Four-direction movement with speed control and boundary clamping
+- Animation state switches between walk/idle based on input
