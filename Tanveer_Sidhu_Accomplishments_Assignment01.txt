@@ -23,7 +23,7 @@
 
  Automatic movement of on-screen content [2/2]
 - Static image moves automatically without player input
-- Moves right at 80 pixels per second with screen wrapping
+- Moves right at 80 pixels per second with screen
 
  Keyboard-controlled movement [4/4]
 - Player character moves in response to keyboard input (WASD keys)
